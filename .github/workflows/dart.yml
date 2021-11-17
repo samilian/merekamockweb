@@ -63,11 +63,11 @@ jobs:
           flutter build web --release
           cd build/web
           git init
-          git config --global user.email "10084lian@gmail.com" #change to your e-mail
-          git config --global user.name "samilian" #change to your user-name
-          git config --global user.password "WOULian0112"
+          git config --global user.email 10084lian@gmail.com #change to your e-mail
+          git config --global user.name samilian #change to your user-name
+          git config --global user.password WOULian0112
           git status
-          git remote add origin https://${{secrets.commit_secret}}@github.com/samilian/merekamockweb.git #change to your path  
+          git remote add origin https://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@github.com/samilian/merekamockweb.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
