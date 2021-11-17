@@ -67,7 +67,7 @@ jobs:
           git config --global user.name samilian #change to your user-name
           git config --global user.password WOULian0112
           git status
-          git remote add origin https://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@github.com/samilian/merekamockweb.git
+          git remote add origin https://samilian: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@github.com/samilian/merekamockweb.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
