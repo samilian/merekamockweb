@@ -24,7 +24,7 @@ jobs:
       - run: |
           cd example/build/web
           git init
-          git config --global user.email git@samilian.com
+          git config --global user.email 10084lian@gmail.com
           git config --global user.name samilian
           git status
           git remote add origin https://${{secrets.commit_secret}}@github.com/samilian/merekamockweb.git
